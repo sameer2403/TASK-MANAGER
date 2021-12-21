@@ -32,7 +32,11 @@ const getTask = async (req, res) => {
    
 }
 const updateTask = (req, res) => {
-    res.send('update task');
+    try {
+        
+    } catch (error) {
+        
+    }
 }
 const deleteTasks = async (req, res) => {
   try {
